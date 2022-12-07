@@ -12,7 +12,7 @@ def get_numbers(line, query_regex):
 
 def overlaps(numbers):
     # Not actually used
-    return numbers[0] <= number_1s[3] and numbers[2] <= numbers[1]
+    return numbers[0] <= numbers[3] and numbers[2] <= numbers[1]
 
 
 def contains(numbers):
